@@ -1,0 +1,13 @@
+{
+  "name": "oct14-api-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ITMGT 45.03 Oct 14 demo: a small Express API and a page that calls it with fetch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

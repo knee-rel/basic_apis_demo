@@ -1,0 +1,102 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #14213d;
+  background: #f6f8fb;
+}
+
+header {
+  padding: 24px 16px;
+  color: #fff;
+  background: #1b5fa8;
+}
+
+header h1 { margin: 0 0 4px; }
+header p { margin: 0; }
+
+code {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.name-field {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.name-field input {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 4px;
+  padding: 8px;
+  font: inherit;
+}
+
+.status {
+  min-height: 24px;
+  font-weight: 600;
+  color: #b3261e;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  padding: 16px;
+  border: 1px solid #d9e1ec;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+}
+
+.card h3 { margin: 8px 0 4px; font-size: 1rem; }
+.emoji { font-size: 2.5rem; }
+.stock { margin: 0; font-size: 0.875rem; color: #5b6b82; }
+.price { margin: 8px 0; font-weight: 700; }
+
+.quantity {
+  width: 64px;
+  padding: 6px;
+  font: inherit;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: #1b5fa8;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #a9b6c8;
+  cursor: not-allowed;
+}
+
+.confirmation {
+  margin-top: 24px;
+  padding: 16px;
+  border-left: 6px solid #2e7d32;
+  border-radius: 8px;
+  background: #e8f5e9;
+}
+
+.confirmation h2 { margin: 0 0 4px; }
+.confirmation p { margin: 0; }

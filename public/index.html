@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShipShape — API demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>ShipShape</h1>
+    <p>Every product on this page comes from <code>GET /api/products</code>.</p>
+  </header>
+
+  <main>
+    <label class="name-field">
+      Your name
+      <input id="customerName" type="text" placeholder="Ana Cruz">
+    </label>
+
+    <!-- Loading, error and empty messages appear here -->
+    <p id="status" class="status"></p>
+
+    <section id="productGrid" class="grid"></section>
+
+    <!-- Filled in after an order is saved and read back from the server -->
+    <section id="confirmation" class="confirmation" hidden></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
